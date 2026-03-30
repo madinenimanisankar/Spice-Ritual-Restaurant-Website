@@ -1,0 +1,133 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Starters",
+      "description": "Begin your meal with these appetizing choices."
+    },
+    {
+      "id": "2",
+      "name": "Main Course",
+      "description": "Hearty and satisfying main dishes."
+    },
+    {
+      "id": "3",
+      "name": "Desserts",
+      "description": "Sweet treats to finish your dining experience."
+    },
+    {
+      "id": "4",
+      "name": "Beverages",
+      "description": "Refreshing drinks to pair with your food."
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "101",
+      "name": "Chicken Biryani",
+      "price": 14.99,
+      "categoryId": "2",
+      "categoryName": "Main Course",
+      "image": "/src/assets/Biryani.png",
+      "description": "Fragrant basmati rice layered with tender, spiced chicken and slow-cooked to perfection."
+    },
+    {
+      "id": "102",
+      "name": "Samosa",
+      "price": 5.99,
+      "categoryId": "1",
+      "categoryName": "Starters",
+      "image": "/src/assets/Samosa.png",
+      "description": "Crispy golden pastry filled with a perfectly spiced potato mixture and herbs."
+    },
+    {
+      "id": "103",
+      "name": "Sada Dosa",
+      "price": 8.99,
+      "categoryId": "2",
+      "categoryName": "Main Course",
+      "image": "/src/assets/Sada Dosa.png",
+      "description": "Thin, crispy dosa made from fermented rice and lentil batter. Served with chutneys and sambar."
+    },
+    {
+      "id": "104",
+      "name": "Onion Dosa",
+      "price": 10.99,
+      "categoryId": "2",
+      "categoryName": "Main Course",
+      "image": "/src/assets/Onion Dosa.png",
+      "description": "A popular South Indian crepe stuffed with finely chopped onions, served with savory chutneys."
+    },
+    {
+      "id": "105",
+      "name": "Paneer Tikka",
+      "price": 12.99,
+      "categoryId": "1",
+      "categoryName": "Starters",
+      "image": "/src/assets/Samosa.png",
+      "description": "Marinated paneer chunks grilled to perfection in a tandoor with aromatic spices."
+    },
+    {
+      "id": "106",
+      "name": "Gulab Jamun",
+      "price": 4.99,
+      "categoryId": "3",
+      "categoryName": "Desserts",
+      "image": "/src/assets/Dark Logo.png",
+      "description": "Sweet, fried dough balls soaked in a fragrant rose-water sugar syrup."
+    },
+    {
+      "id": "107",
+      "name": "Mango Lassi",
+      "price": 3.99,
+      "categoryId": "4",
+      "categoryName": "Beverages",
+      "image": "/src/assets/light logo.png",
+      "description": "A creamy, yogurt-based drink perfectly blended with ripe, sweet mangoes."
+    }
+  ],
+  "users": [
+    {
+      "id": "admin_1",
+      "name": "Admin User",
+      "email": "admin@spiceritual.com",
+      "role": "admin"
+    },
+    {
+      "id": "cust_1",
+      "name": "Jane User",
+      "email": "user@spiceritual.com",
+      "role": "customer"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-100201",
+      "customerId": "cust_1",
+      "customerInfo": {
+        "name": "Jane User",
+        "email": "user@spiceritual.com",
+        "phone": "555-123-4567",
+        "date": "2026-02-23",
+        "time": "19:30"
+      },
+      "items": [
+        {
+          "id": "101",
+          "name": "Chicken Biryani",
+          "price": 14.99,
+          "quantity": 2
+        },
+        {
+          "id": "106",
+          "name": "Gulab Jamun",
+          "price": 4.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 36.72,
+      "status": "completed",
+      "createdAt": "2026-02-20T14:30:00Z"
+    }
+  ]
+}
